@@ -1,0 +1,21 @@
+<section>
+    <header>
+        <h1>Crie um novo console</h1>
+    </header>
+
+    <form [formGroup]="formCadastro">
+        <!--modelo-->
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" formControlName="modelo">
+
+        <!--fabricante-->
+        <label for="fabricante">Fabricante</label>
+        <input type="text" id="fabricante" formControlName="fabricante">
+
+        <!--submit-->
+        <button (click)="cadastrarConsole()">Salvar</button>
+
+        <!--cancelar-->
+        <button>Cancelar</button>
+    </form>
+</section>

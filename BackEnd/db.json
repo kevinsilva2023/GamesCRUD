@@ -1,0 +1,14 @@
+{
+  "consoles": [
+    {
+      "id": "7166",
+      "modelo": "kevin",
+      "fabricante": "silva"
+    },
+    {
+      "id": "562e",
+      "modelo": "teste",
+      "fabricante": "lucas"
+    }
+  ]
+}
